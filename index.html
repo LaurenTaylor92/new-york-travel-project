@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Welcome to New York</title>
   </head>
@@ -27,11 +28,11 @@
             <img
               src="images/central-park.jpg"
               alt="Central Park"
-              width="600px"
               class="img-responsive"
             />
           </div>
           <div>
+            <a name="more"></a>
             <h3>Why New York?</h3>
             <h2>New York, the city that never sleeps</h2>
             <p>
@@ -63,16 +64,13 @@
               <div class="card-header grid grid-2-columns">
                 <img
                   src="images/cafes/urban-backyard.jpeg"
-                  alt="picture of a cafe"
+                  alt="Picture of a cafe"
                   class="image-responsive"
-                  width="185px"
-                  height="185px"
+                  width="180px"
                 />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8732629331334!2d-73.99879018255616!3d40.72080640000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591b920da2bf%3A0x974c3ae78a7be9e4!2sUrban%20Backyard!5e0!3m2!1sen!2sus!4v1687356399664!5m2!1sen!2sus"
                   class="embed"
-                  width="185px"
-                  height="185px"
                   style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
@@ -112,16 +110,13 @@
               <div class="card-header grid grid-2-columns">
                 <img
                   src="images/cafes/maman.jpeg"
-                  alt="picture of croissaints on a tiered platter"
+                  alt="Picture of croissaints on a tiered platter"
                   class="image-responsive"
-                  width="185px"
-                  height="185px"
+                  width="180px"
                 />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12095.834430154744!2d-74.01489393022463!3d40.7189277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598aaa12797f%3A0x8ef90302032a0c4e!2smaman!5e0!3m2!1sen!2sus!4v1687361845673!5m2!1sen!2sus"
                   class="embed"
-                  width="185px"
-                  height="185px"
                   style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
@@ -163,14 +158,11 @@
                   src="images/cafes/hutch and waldo.png"
                   alt="picture of brunch food on a table"
                   class="image-responsive"
-                  width="185px"
-                  height="185px"
+                  width="180px"
                 />
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.416261102986!2d-73.9542673!3d40.774862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258beb095656f%3A0x858a7de9065ff735!2sHutch%20and%20Waldo!5e0!3m2!1sen!2sus!4v1687362023148!5m2!1sen!2sus"
                   class="embed"
-                  width="185"
-                  height="185"
                   style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
@@ -211,49 +203,39 @@
         <section>
           <h2 class="text-center">Gallery</h2>
           <h3 class="text-center">My Photos from New York</h3>
-          <div class="grid grid-3-columns photo-gallery">
-            <img
-              src="/Images/lower-manhatten.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
-            <img
-              src="/Images/china-town.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
-            <img
-              src="/Images/nyc-night.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
-            <img
-              src="/Images/brooklyn-bridge-city-view.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
-            <img
-              src="/Images/dumbo.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
-            <img
-              src="/Images/brooklyn-bridge.jpg"
-              alt="China Town"
-              class="image-responsive"
-              width="370px"
-              height="370px"
-            />
+          <div class="photo-gallery">
+            <div class="grid grid-3-columns">
+              <img
+                src="/Images/lower-manhatten.jpg"
+                alt="Lower Manhatten"
+                class="image-responsive photo"
+              />
+              <img
+                src="/Images/china-town.jpg"
+                alt="China Town"
+                class="image-responsive photo"
+              />
+              <img
+                src="/Images/nyc-night.jpg"
+                alt="Times Square at night"
+                class="image-responsive photo"
+              />
+              <img
+                src="/Images/brooklyn-bridge-city-view.jpg"
+                alt="Brooklyn Bridge with city view"
+                class="image-responsive photo"
+              />
+              <img
+                src="/Images/dumbo.jpg"
+                alt="Manhatten Bridge in Dumbo"
+                class="image-responsive photo"
+              />
+              <img
+                src="/Images/brooklyn-bridge-small.jpg"
+                alt="Brooklyn Bridge"
+                class="image-responsive photo"
+              />
+            </div>
           </div>
         </section>
       </main>
